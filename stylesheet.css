@@ -1,0 +1,113 @@
+body{
+	background-color: #c0c0c0;
+	font-family: sans-serif;
+}
+
+div#container{
+	width: 740px;
+	padding: 30px;
+	margin: 60px auto;
+	background-color: white;
+}
+
+.shadow{
+	box-shadow: 0px 0px 30px #555555;
+}
+
+header{
+	text-align: center;
+}
+
+header .tagline{
+	font-size: 18px;
+	margin: 10px 0 0 0;
+}
+
+header .title{
+	font-size: 72px;
+	margin: 0px;
+}
+
+ul#nav{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	text-align: center;
+	margin: 15px 0 30px 0;
+	padding: 0px;
+	height: 48px;
+}
+
+ul#nav li{
+	list-style: none;
+	display: block;
+	float: left;
+}
+
+ul#nav a{
+	text-decoration: none;
+	padding: 15px;
+	width: 118px;
+	display: block;
+	color: black;
+	margin: 0px;
+}
+
+ul#nav a:hover{
+	background-color: black;
+	color: white;
+}
+
+section#content h1{
+	font-size:28px;
+	color:#434343;
+	font-weight:normal;
+}
+
+section#content h2{
+	font-size:22px;
+	color:#434343;
+	font-weight:normal;
+}
+
+section#content h3{
+	font-size:18px;
+	color:#434343;
+}
+
+section#content p,
+section#content a,
+section#content li,
+section#content td{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: normal;
+}
+
+section#content a{
+	color: green;
+	text-decoration: none;
+}
+
+.floatright{
+	float:right;
+}
+.floatleft{
+	float:left;
+}
+
+.padding{
+	padding:20px;
+}
+
+footer{
+	background-color: #bee08e;
+	padding: 15px;
+	margin-top: 30px;
+	height: 60px;
+}
+
+footer p{
+	font-size: 15px;
+	color: #4d711a;
+	margin-top: 25px;
+}
